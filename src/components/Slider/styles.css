@@ -1,0 +1,134 @@
+.slider {
+  position: relative;
+}
+
+.slider .previous {
+  top: 50%;
+  left: 9%;
+}
+
+.slider .next {
+  top: 50%;
+  right: 9%;
+}
+
+.slider button {
+  position: absolute;
+  background-color: unset;
+  outline: none;
+  border: none;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+}
+
+.dots {
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  right: 0;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 2px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+  border: 1px solid #faa500;
+}
+
+.dot.active {
+  background-color: #faa500;
+}
+
+.slider h2,
+.slider p,
+.slider button {
+  position: absolute;
+}
+
+.slider h2 {
+  top: 20%;
+  left: 18%;
+  color: #fff;
+  font-size: 30px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.slider p {
+  top: 45%;
+  left: 18%;
+  color: #fff;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 239px;
+}
+
+.slider .btn-slider {
+  top: 65%;
+  left: 18%;
+  border-radius: 4px;
+  background: #faa500;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 5px 7px;
+}
+
+@media (min-width: 992px) {
+  .slider h2 {
+    top: 28%;
+    left: 18%;
+    color: #fff;
+    font-size: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .slider p {
+    top: 40%;
+    left: 18%;
+    color: #fff;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 300px;
+  }
+
+  .slider .btn-slider {
+    top: 49%;
+    left: 18%;
+    border-radius: 4px;
+    background: #faa500;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 15px;
+  }
+}

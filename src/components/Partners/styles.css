@@ -1,0 +1,32 @@
+.partners h2 {
+  color: #353535;
+  text-align: center;
+  font-size: 24px;
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.partners-content {
+  max-width: 100%;
+  width: 100%;
+  overflow: auto;
+  display: flex;
+}
+
+.partners {
+  margin-top: 40px;
+}
+
+.partners-item:first-child {
+  margin-left: 64px;
+}
+
+@media (min-width: 992px) {
+  .partners-content {
+    display: flex;
+    justify-content: center;
+  }
+}

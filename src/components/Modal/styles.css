@@ -1,0 +1,123 @@
+.modal {
+  position: absolute;
+  width: 430px;
+  height: 810px;
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.modal-overlay {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  z-index: 1;
+}
+
+.modal h1 {
+  color: #464b54;
+  text-align: center;
+  font-size: 12px;
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.close-modal {
+  position: absolute;
+  top: 4%;
+  right: 35%;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: var(--branco, #fff);
+  font-size: 12px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.img-modal {
+  max-width: 430px;
+  height: 550px;
+}
+.modal span {
+  color: var(--color-4, #787d83);
+  text-align: center;
+  font-size: 16px;
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.modal input {
+  border-radius: 5px;
+  border: 1px solid #c4c4c4;
+  background: #fff;
+  width: 100%;
+  min-width: 258px;
+  padding: 10px 9px;
+  margin-top: 26px;
+  color: #787d83;
+  font-size: 12px;
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.modal button {
+  border-radius: 10px;
+  background: #faa500;
+  color: #fff;
+  font-size: 12px;
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 10px 0;
+  width: 100%;
+  min-width: 258px;
+  border: unset;
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.modal button:disabled {
+  opacity: 0.5;
+}
+
+.modal button img {
+  margin-left: 8px;
+}
+
+.modal p {
+  color: #787d83;
+  text-align: center;
+  font-size: 12px;
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 12px;
+  opacity: 0.8;
+}
