@@ -59,7 +59,7 @@ $ yarn dev
 
 ```
 
-Feito/Reprosuzido por <a href="https://github.com/fabramosdev" target="_blank">Fabiano</a>
+Feito/Reproduzido por <a href="https://github.com/fabramosdev" target="_blank">Fabiano</a>
 
 &#xa0;
 
