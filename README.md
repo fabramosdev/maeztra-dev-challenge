@@ -18,10 +18,10 @@
 
 <p align="center">
   <a href="#dart-about">Sobre</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologias</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Iniciando</a> &#xa0; | &#xa0;
   <a href="#memo-license">Licença</a> &#xa0; | &#xa0;
-  <a href="https://github.com/fabramosdev" target="_blank">Author</a>
+  <a href="https://github.com/fabramosdev" target="_blank">Autor</a>
 </p>
 
 <br>
