@@ -17,7 +17,7 @@
 <hr>
 
 <p align="center">
-  <a href="#dart-about">SObre</a> &#xa0; | &#xa0;
+  <a href="#dart-about">Sobre</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologias</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Iniciando</a> &#xa0; | &#xa0;
   <a href="#memo-license">Licença</a> &#xa0; | &#xa0;
